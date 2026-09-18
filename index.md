@@ -201,7 +201,7 @@ pubblicata allo stesso indirizzo.
 
 ## 15. CONTATTI
 
-Per domande su questa informativa: **[TUA EMAIL]**
+Per domande su questa informativa: ingaggio.support@gmail.com
 
 ---
 
