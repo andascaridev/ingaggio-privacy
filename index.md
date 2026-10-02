@@ -1,6 +1,6 @@
 # INFORMATIVA SULLA PRIVACY — INGAGGIO
 
-**Ultimo aggiornamento:** 18 Settembre 2026
+**Ultimo aggiornamento:** 2 Ottobre 2026
 
 ---
 
@@ -185,21 +185,40 @@ per singola app: tieni premuta l'icona di Ingaggio nella schermata Home e scegli
 
 ---
 
-## 13. MINORI
+## 13. PROVA GRATUITA E ACQUISTO IN-APP
+
+Ingaggio è gratuita da scaricare e include una prova completa di 30 giorni. Dopo la prova,
+per continuare a usare l'app è necessario uno sblocco a pagamento (acquisto unico, valido
+per sempre), effettuato tramite In-App Purchase di Apple.
+
+**Il pagamento è gestito interamente da Apple.** Ingaggio non riceve, non vede e non
+conserva alcun dato di pagamento (numero di carta, dati bancari o simili): quel trattamento
+è regolato dall'informativa privacy di Apple.
+
+Per sapere se hai già sbloccato l'app (anche dopo averla reinstallata o su un nuovo
+telefono) e per determinare da quando è iniziata la tua prova gratuita, l'app comunica con
+i server di Apple tramite il framework StoreKit, usando il tuo Apple ID già collegato al
+dispositivo. Non viene creato nessun account Ingaggio, e nessuna di queste informazioni
+viene inviata a server propri: restano un dato tecnico scambiato tra il tuo dispositivo e
+Apple, nello stesso modo in cui avviene per qualunque acquisto in-app su App Store.
+
+---
+
+## 14. MINORI
 
 Ingaggio è uno strumento di lavoro, pensato per un pubblico adulto. Non raccoglie dati e
 non è rivolta a minori di 13 anni.
 
 ---
 
-## 14. MODIFICHE
+## 15. MODIFICHE
 
 Se questa informativa cambierà, la data in cima verrà aggiornata e la versione nuova
 pubblicata allo stesso indirizzo.
 
 ---
 
-## 15. CONTATTI
+## 16. CONTATTI
 
 Per domande su questa informativa: ingaggio.support@gmail.com
 
