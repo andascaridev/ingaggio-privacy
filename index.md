@@ -1,6 +1,6 @@
 # INFORMATIVA SULLA PRIVACY — INGAGGIO
 
-**Ultimo aggiornamento:** 2 Ottobre 2026
+**Ultimo aggiornamento:** 4 Novembre 2026
 
 ---
 
@@ -8,9 +8,10 @@
 
 **Ingaggio non raccoglie nessun dato.**
 
-Tutto quello che inserisci — lavori, clienti, importi, allegati — resta **sul tuo
-dispositivo**. Non esiste nessun server a cui l'app invii informazioni. Chi ha sviluppato
-Ingaggio non può vedere i tuoi dati, e non ha modo di accedervi.
+Tutto quello che inserisci — lavori, clienti, preventivi, importi, allegati — resta **sul tuo
+dispositivo** e, solo se lo attivi, nel **tuo iCloud personale** per averlo anche sugli altri tuoi
+dispositivi. Non esiste nessun server di Ingaggio a cui l'app invii informazioni. Chi ha
+sviluppato Ingaggio non può vedere i tuoi dati, e non ha modo di accedervi.
 
 Non ci sono account da creare, né pubblicità, né strumenti di analisi o tracciamento.
 
@@ -30,6 +31,9 @@ Ingaggio ti permette di registrare:
 **Sui tuoi lavori:** tipo di lavoro, date, luoghi, importi, acconti, stato di avanzamento,
 stato del pagamento, metodo di pagamento, tipo di documento, note.
 
+**Sui tuoi preventivi:** cliente, tipo di lavoro, data dell'evento, importo, stato
+(in attesa, accettato, perso), promemoria di ricontatto, note.
+
 **Sui tuoi clienti:** nome, telefono, email, indirizzi, sito web, profili social, note.
 E se li registri: ragione sociale, partita IVA, codice SDI, PEC, contatti amministrativi.
 
@@ -45,10 +49,19 @@ Tutti questi dati li inserisci tu. **L'app non li raccoglie da nessun'altra part
 
 ## 3. DOVE SONO SALVATI
 
-Esclusivamente nella memoria del tuo dispositivo, in un'area riservata all'app.
+Nella memoria del tuo dispositivo, in un'area riservata all'app.
 
-**Non vengono inviati a nessun server.** Non esiste un'infrastruttura a cui l'app si colleghi
-per salvare o sincronizzare informazioni.
+**Non vengono inviati a nessun server dello sviluppatore.** Non esiste un'infrastruttura di
+Ingaggio a cui l'app si colleghi per salvare o sincronizzare informazioni.
+
+**Sincronizzazione iCloud (facoltativa).** Se hai effettuato l'accesso a iCloud sul tuo
+dispositivo, Ingaggio può sincronizzare i tuoi dati (lavori, clienti, preventivi, attività,
+impostazioni e allegati) tra i tuoi dispositivi tramite iCloud, usando il database privato
+CloudKit associato al tuo Apple ID. Questi dati sono archiviati nel tuo account iCloud e
+gestiti da Apple secondo la sua informativa sulla privacy; lo sviluppatore non ha accesso ai
+tuoi dati, non dispone di server propri e non raccoglie, vende o condivide informazioni
+personali. Puoi disattivare la sincronizzazione disattivando iCloud per Ingaggio nelle
+Impostazioni di iOS.
 
 Se il tuo iPhone ha il backup di iCloud attivo (un'impostazione di Apple, indipendente da
 questa app), i dati di Ingaggio vengono inclusi in quel backup, come per ogni altra app.
@@ -63,7 +76,7 @@ disponibili, ma l'app continuerà a funzionare.
 
 | Permesso | A cosa serve |
 |---|---|
-| **Calendario** | Inserire i tuoi lavori nel calendario del telefono. L'app legge gli eventi solo per avvisarti se ne esiste già uno simile nello stesso giorno |
+| **Calendario** | Inserire i tuoi lavori e i promemoria nel calendario del telefono. L'app legge gli eventi solo per avvisarti se ne esiste già uno simile nello stesso giorno e per tenere allineati gli eventi che ha creato (se li sposti o li cancelli nel Calendario, l'app lo recepisce) |
 | **Notifiche** | Promemoria sulle attività e numero sull'icona dell'app |
 | **Foto** | Allegare immagini ai lavori. L'app accede solo alle foto che selezioni tu |
 | **File** | Allegare documenti, importare/esportare Excel, salvare i backup nella cartella che scegli |
@@ -116,22 +129,30 @@ L'app non sa quante volte la apri, quali schermate usi, né quanti lavori hai in
 
 Gli unici dati che escono dal dispositivo sono quelli che **decidi tu** di far uscire: un
 report PDF che invii a un cliente, un file Excel esportato, un backup salvato in una
-cartella. In quei casi, la scelta e la destinazione sono interamente tue.
+cartella e, se la attivi, la sincronizzazione sul tuo iCloud personale (vedi sezione 3). In
+questi casi, la scelta e la destinazione sono interamente tue.
 
 ---
 
 ## 9. CONSERVAZIONE E CANCELLAZIONE
 
-I dati restano sul dispositivo finché non decidi di eliminarli.
+I dati restano sul dispositivo (e, se attiva, nel tuo iCloud) finché non decidi di eliminarli.
 
 Puoi cancellarli:
+
 - **uno a uno**, dall'app
 - **tutti insieme**, da Impostazioni → Ripristina → Cancella tutti i dati
-- **completamente**, disinstallando l'app
+- **dal dispositivo**, disinstallando l'app
 
-⚠️ **Disinstallando l'app, tutti i dati e gli allegati vengono cancellati in modo
-irreversibile.** Se ti servono, esegui prima un backup (Impostazioni → Backup) o
-un'esportazione in Excel.
+Con la sincronizzazione iCloud attiva, eliminare un elemento nell'app lo rimuove anche da
+iCloud e dagli altri tuoi dispositivi collegati; per le eliminazioni molto numerose l'app
+chiede prima una conferma. **Disinstallare l'app non cancella i dati salvati su iCloud**: per
+eliminarli vai su Impostazioni di iOS → [il tuo nome] → iCloud → Gestisci spazio →
+Ingaggio → Elimina dati.
+
+⚠️ **Se la sincronizzazione iCloud non è attiva, disinstallando l'app tutti i dati e gli
+allegati vengono cancellati in modo irreversibile.** Se ti servono, esegui prima un backup
+(Impostazioni → Backup) o un'esportazione in Excel.
 
 ---
 
@@ -146,7 +167,7 @@ In Ingaggio li eserciti direttamente, senza doverci contattare:
 |---|---|
 | **Accesso** | I dati sono nell'app, li vedi tutti |
 | **Rettifica** | Modificabili in qualsiasi momento |
-| **Cancellazione** | Da Impostazioni, o disinstallando l'app |
+| **Cancellazione** | Da Impostazioni, o dalle impostazioni iCloud se usi la sincronizzazione |
 | **Portabilità** | Esportazione in Excel/CSV, o backup completo |
 
 Non possiamo accedere ai tuoi dati, quindi non possiamo né fornirteli né cancellarli per
@@ -174,7 +195,8 @@ obblighi previsti per la tua attività.
 ## 12. SICUREZZA
 
 I dati sono protetti dai meccanismi di sicurezza di iOS: l'area dell'app è isolata e non
-accessibile ad altre applicazioni.
+accessibile ad altre applicazioni. Se usi la sincronizzazione, i dati viaggiano e sono
+conservati con i sistemi di sicurezza di iCloud, gestiti da Apple.
 
 Se il dispositivo ha un codice di sblocco, i dati sono protetti anche dalla cifratura del
 sistema. **Consigliamo di tenere sempre attivo un codice di sblocco.**
